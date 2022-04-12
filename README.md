@@ -7,6 +7,6 @@
 
 * Mistakes are part of learning. 
 * Always keep trying.
-* Patience is key. 
+* Patience is key.
 
 ***Will Power! 💪 🧠***
