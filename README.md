@@ -1,8 +1,12 @@
-# reading-notes
-My learning journal for Code Fellows!
+# GROWTH MINDSET
+*With perseverance and effort, intelligence and fundamental skills can develop and improve over time.*
 
-*A groth mindset will help me to be successful in this program.*
+> A growth mindset will help me to be successful in this program.
 
-- Keep trying
-- Ask fro help
-- Keep reminders around of where you started from 
+### Reminders to myself to keep a growth mindset
+
+* Mistakes are part of learning. 
+* Always keep trying.
+* Patience is key. 
+
+***Will Power! 💪 🧠***
