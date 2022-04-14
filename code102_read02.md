@@ -22,3 +22,5 @@ An IDE (Integrated Development Environment) is basically a suite of different so
 > COMMAND LINE / TERMINAL
 
 A command line, or terminal, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. The command line typically presents you with a prompt. As you type, it will be displayed after the prompt. Here is an example:
+
+<img width="851" alt="Screen Shot 2022-04-13 at 7 50 15 PM" src="https://user-images.githubusercontent.com/103381515/163292731-2680d057-d2da-4a6e-b693-c9e926cf7028.png">
