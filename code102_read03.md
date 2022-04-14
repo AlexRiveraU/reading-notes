@@ -4,7 +4,7 @@ Version Control is a system that allows you to revisit various versions of a fil
 
 ### Distributed Version Control System
 
-A Distributed Version Control systems (DVCS) creates mirrored repositories. These data backups can be easily be placed on a server to replace any lost information, allowing programmers working in teams to ollaborate with each other in various ways to complete a joint project.
+A Distributed Version Control systems (DVCS) creates mirrored repositories. These data backups can be easily be placed on a server to replace any lost information, allowing programmers working in teams to collaborate with each other in various ways to complete a joint project.
 
 ---
 
