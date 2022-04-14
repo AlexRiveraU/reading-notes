@@ -8,7 +8,11 @@ important tools you can use as an aspiring web developer.
 
 ## Examples of Text Editors
 
-1. NotePad++
+1. [NotePad++](https://notepad-plus-plus.org/)
+2. [BB Edit](https://www.barebones.com/products/bbedit/)
+3. [Visual Studio Code](https://code.visualstudio.com/)
+4. [Atom](https://atom.io/)
+5. [Brackets](https://brackets.io/)
 
 
 # LINUX
