@@ -10,8 +10,12 @@ A text editor is a piece of software that you download and install on your compu
 4. [Atom](https://atom.io/)
 5. [Brackets](https://brackets.io/)
 
+
 ## WHAT IS AN IDE?
 
 An IDE (Integrated Development Environment) is basically a suite of different software all coming together. An IDE is a text editor, a file manager, a compiler, and a debugger all in one software package. Think of it like Microsoft Outlook, that is an email client, a calendar, a task manager, a to-do list all in one software package. Similar to how an IDE is an all-in-one software package.
 
-# LINUX
+
+# INTRODUCTION TO LINUX
+![98-989923_linux-penguin-wallpaper-wallpapersafari-linux-penguin-black-background](https://user-images.githubusercontent.com/103381515/163291252-6c79b66a-29bd-4ef2-9aa0-2da85b393473.jpeg)
+
