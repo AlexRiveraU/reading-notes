@@ -19,3 +19,6 @@ An IDE (Integrated Development Environment) is basically a suite of different so
 # INTRODUCTION TO LINUX
 ![98-989923_linux-penguin-wallpaper-wallpapersafari-linux-penguin-black-background](https://user-images.githubusercontent.com/103381515/163291252-6c79b66a-29bd-4ef2-9aa0-2da85b393473.jpeg)
 
+> COMMAND LINE / TERMINAL
+
+A command line, or terminal, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. The command line typically presents you with a prompt. As you type, it will be displayed after the prompt. Here is an example:
