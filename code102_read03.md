@@ -18,4 +18,6 @@ Git is a DVCS that stores data in a file system made up of snapshots. Each time 
 * **Modified:** File has been changed but not committed to the database
 * **Staged:** Flagged a file’s changed version to be committed in the next snapshot
 
-*Click [HERE](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html) for a list of basic Git commands.*  
+*Click [HERE](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html) for a list of basic Git commands.*
+
+**IMPORTANT NOTE:** Remember to always ACP (Add, Commit, Push)
