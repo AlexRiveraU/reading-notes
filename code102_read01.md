@@ -4,10 +4,16 @@
 
 > A growth mindset will help me to be successful in this program.
 
-### Reminders to keep a growth mindset:
+## Reminders to keep a growth mindset
 
-* Mistakes are part of learning. 
+* Mistakes are part of learning.
 * Always keep trying.
 * Patience is key.
 
+---
+
 ***Moving Forward! 💪 🧠***
+
+---
+
+[-back home](https://alexriverau.github.io/reading-notes/)
