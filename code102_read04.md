@@ -35,3 +35,7 @@ HTML is a markup language that defines the structure of your content. it consist
 In programming, semantics refers to the meaning of a piece of code. The purpose or role of a given element.
 
 > Some of the roughly 100 semantic elements avaialable can be found [here.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+---
+
+[-back home](https://alexriverau.github.io/reading-notes/)
