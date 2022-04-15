@@ -12,8 +12,8 @@ _Greetings!_ My name is Alejandro Rivera. I recently started a career / life cha
 
 * [Growth Mindset](https://alexriverau.github.io/reading-notes/code102_read01)
 * [The Coder’s Computer](https://alexriverau.github.io/reading-notes/code102_read02)
-* [Revision and The Cloud](https://alexriverau.github.io/reading-notes/code102_read03)
-* Structure web pages with HTML
+* [Revision and the Cloud](https://alexriverau.github.io/reading-notes/code102_read03)
+* [Structure web pages with HTML](https://alexriverau.github.io/reading-notes/code102_read04)
 
 ---
 
