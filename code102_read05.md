@@ -21,7 +21,7 @@ You can add CSS creating a file known as style sheet. A browser reads it and for
 ## Ways to Insert CSS
 
 1. **External CSS:** Changes the look of an entire website by changing just one file.
-2. **Internal CSS:** Changes the look of one single HTML page.
+2. **Internal CSS:** Changes the look of a single HTML page.
 3. **Inline CSS:** Changes the look of a single element.
 
 ---

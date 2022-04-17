@@ -14,7 +14,7 @@ _Greetings!_ My name is Alejandro Rivera. I recently started a career / life cha
 * [The Coder’s Computer](https://alexriverau.github.io/reading-notes/code102_read02)
 * [Revision and the Cloud](https://alexriverau.github.io/reading-notes/code102_read03)
 * [Structure web pages with HTML](https://alexriverau.github.io/reading-notes/code102_read04)
-* [CSS] ()
+* [CSS] (https://alexriverau.github.io/reading-notes/code102_read05)
 
 ---
 
