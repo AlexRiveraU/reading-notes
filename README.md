@@ -16,6 +16,7 @@ _Greetings!_ My name is Alejandro Rivera. I recently started a career / life cha
 * [Structure web pages with HTML](https://alexriverau.github.io/reading-notes/code102_read04)
 * [CSS](https://alexriverau.github.io/reading-notes/code102_read05)
 * [Dynamic web pages with JavaScript](https://alexriverau.github.io/reading-notes/code102_read06)
+* [Programming with JavaScript](https://alexriverau.github.io/reading-notes/code102_read07)
 
 ---
 

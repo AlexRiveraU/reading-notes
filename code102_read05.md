@@ -30,4 +30,6 @@ You can add CSS creating a file known as style sheet. A browser reads it and for
 
 The cascade order refers to the way styles begin at the top of the page and, as they cascade down, collect and replace each other as they are inherited. The general rule of thumb is that the last style defined is the one that is used.
 
+---
+
 [-back home](https://alexriverau.github.io/reading-notes/)

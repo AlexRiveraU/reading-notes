@@ -41,4 +41,6 @@ A JavaScript function is defined with the function keyword, followed by a nam
 
 In JavaScript, an operator is a special symbol used to perform operations on operands or values.
 
+---
+
 [-back home](https://alexriverau.github.io/reading-notes/)

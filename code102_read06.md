@@ -37,4 +37,6 @@ Through wires and circuits computers carry all the data in electrical signals. W
 * Software is created using programming languages
 * OS (Operating System) is the master program that manages how software uses the hardware of a computer.
 
+---
+
 [-back home](https://alexriverau.github.io/reading-notes/)
