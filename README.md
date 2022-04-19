@@ -15,6 +15,7 @@ _Greetings!_ My name is Alejandro Rivera. I recently started a career / life cha
 * [Revision and the Cloud](https://alexriverau.github.io/reading-notes/code102_read03)
 * [Structure web pages with HTML](https://alexriverau.github.io/reading-notes/code102_read04)
 * [CSS](https://alexriverau.github.io/reading-notes/code102_read05)
+* [Dynamic web pages with JavaScript]()
 
 ---
 
