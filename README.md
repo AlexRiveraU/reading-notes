@@ -4,11 +4,31 @@ _Greetings!_ My name is Alejandro Rivera. I recently started a career / life cha
 
 ---
 
-> _Reading-notes / Assignments Page_
+## CODE 201 READING NOTES
+
+### Table of Contents
+
+1. [Reading Assigment](*)
+2. [Reading Assigment](*)
+3. [Reading Assigment](*)
+4. [Reading Assigment](*)
+5. [Reading Assigment](*)
+6. [Reading Assigment](*)
+7. [Reading Assigment](*)
+8. [Reading Assigment](*)
+9. [Reading Assigment](*)
+10. [Reading Assigment](*)
+11. [Reading Assigment](*)
+12. [Reading Assigment](*)
+13. [Reading Assigment](*)
+14. [Reading Assigment](*)
+15. [Reading Assigment](*)
 
 ---
 
-## Table of Contents
+### CODE 102 READING NOTES
+
+### Table of Contents
 
 * [Growth Mindset](https://alexriverau.github.io/reading-notes/code102_read01)
 * [The Coder’s Computer](https://alexriverau.github.io/reading-notes/code102_read02)
