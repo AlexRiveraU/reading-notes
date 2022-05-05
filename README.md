@@ -8,7 +8,7 @@ _Greetings!_ My name is Alejandro Rivera. I recently started a career / life cha
 
 ### Table of Contents
 
-1. [Reading Assigment](*)
+1. [class-01](https://alexriverau.github.io/reading-notes/class-01)
 2. [Reading Assigment](*)
 3. [Reading Assigment](*)
 4. [Reading Assigment](*)
