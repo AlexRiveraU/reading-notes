@@ -48,15 +48,15 @@ Design is about communication. Visual hierarchy helps visitors understand what w
 
 >What is a script?
 
-A script is a series of instructions that a computer can follow step by step to achieve a goal. Computers solves tasks programmatically so we must write the instructions that way. In order to write a script we need to:
+A script is a series of instructions that a computer can follow step by step to achieve a goal. Computers solve tasks programmatically so we must write the instructions that way. In order to write a script we need to:
 
 * Define the goal
 * Design the script
 * Code each step
 
-Computers use data to create models of the world using objects that represent physical things. Objects can have *properties* that tell us info about them, *methods* that perform tasks using those properties and *events* that are triggered by user interaction.
+Computers use data to create models of the world using objects that represent physical things. Objects can have ***properties*** that tell us info about them, ***methods*** that perform tasks using those properties and ***events*** that are triggered by user interaction.
 
-Programmers write the code to indicate when to run it. To make pages more interactive, the code is written to interact with the HTML markup used by browsers.
+Programmers write the code to indicate when to run it. To make pages more interactive, the code is written to interact with the HTML markup that browsers use.
 
 >How to write script for a web page?
 
