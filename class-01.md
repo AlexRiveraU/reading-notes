@@ -64,4 +64,10 @@ We use JavaScript, a programming language for the web. We create a text file wit
 
 ---
 
-[-back home](https://alexriverau.github.io/reading-notes/)
+### Things I want to know more about
+
+* Programming with JavaScript
+
+---
+
+[-back](https://alexriverau.github.io/reading-notes/)
