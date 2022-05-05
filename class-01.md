@@ -30,7 +30,7 @@ There are many  different types of elements that tell browsers important informa
 * \<meta> Provides all kinds of important info to the the web page.
 * \<title> Defines the document’s title that appears in the browser’s title bar or page’s tab.
 
-Clik [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for more examples.
+Click [HERE](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for more examples.
 
 HTML5 Layout introduced a new set of elements that indicate the purpose of different parts of a web page and help define its structure. (e.g.) \<header> \<footer> \<nav>
 
