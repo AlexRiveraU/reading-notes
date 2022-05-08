@@ -7,7 +7,7 @@
 
 STRUCTURAL TEXT TAGS
 
-1. HEADINGS: There are six leves \<h1> \<h2> \<h3> \<h4> \<h5> \<h6>
+1. HEADINGS: There are six levels \<h1> \<h2> \<h3> \<h4> \<h5> \<h6>
 2. PARAGRAPHS: \<p>
 3. BOLD & ITALIC: \<b> & \<i>
 4. SUPERSCRIPT & SUBSCRIPT: \<sup> & \<sub>
@@ -26,7 +26,7 @@ SEMANTIC TEXT TAGS
 
 ## INTRODUCTION TO CSS
 
-CSS Allows us to create rules that specify how the content of an element should appear on a page. The style of a website. It works by associating rules with HTML elements that specify how the content of elemnts should be displayed.
+CSS Allows us to create rules that specify how the content of an element should appear on a page. The style of a website. It works by associating rules with HTML elements that specify how the content of elements should be displayed.
 
 >CSS Rules:
 
@@ -35,16 +35,16 @@ CSS Allows us to create rules that specify how the content of an element should 
    * ***Property:*** Indicates the aspects of the element you want to change.
    * ***Value:*** Specify the settings you want to use for the chosen properties.
 
-          p {
-            font- family: Arial;
-            color: blue;
-            }
+        p {
+          font- family: Arial;
+          color: blue;
+          }
 
 > CSS External & Internal
 
 * EXTERNAL: We use html tag \<link> to tell the browser where to find the CSS file. (e.g)
 
-      <link href="css/styles.css" type:"text/css" rel:"stylesheet" />
+    \<link href="css/styles.css" type:"text/css" rel:"stylesheet" />
 
 * INTERNAL: We use html tag \<style> to add css within the html file.
 
@@ -67,18 +67,18 @@ Variables: Store pieces of information temporarily that are used in the script.
 What the script uses to temporarily store the pieces of information it needs to do its job.
 
 * **DECLARING:** Variables need to be created and given a name before being used, this is known as declaring a variable.
-* **ASSIGNING VALUE:** Once created, you can tell it what information you would it like to store. You would be assignig a value to a variable.
+* **ASSIGNING VALUE:** Once created, you can tell it what information you would it like to store. You would be assigning a value to a variable.
 
 >TYPES OF VARIABLES
 
 * Numbers: (0-9)
-* Strings: Text, letters and other charaters
+* Strings: Text, letters and other characters
 * Boolean: True or False
 * Arrays: Store a list of values
 
-**EXPRESIONS:** Evaluate into a sigle value. There are two types:
+**EXPRESSIONS:** Evaluate into a single value. There are two types:
 
-1. Expressions that just assign a value to a varible.
+1. Expressions that just assign a value to a variable.
 2. Expressions that use two or more values to return a single value.
 
 **OPERATORS:** Expressions rely on operators to create a single value from one or more values.
@@ -96,11 +96,11 @@ There are two component to a decision:
 1. An expression is evaluated and returns a value.
 2. A conditional statement says what to do in a given situation.
 
-        if (score < 50) {
-          document.write('You passed!');
-        } else {
-          docoument.write('Try again...')
-        }
+if (score < 50) {
+  document.write('You passed!');
+} else {
+    docoument.write('Try again...')
+}
 
 ### Things I want to know more about
 
