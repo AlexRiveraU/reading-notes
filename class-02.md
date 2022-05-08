@@ -99,7 +99,7 @@ There are two component to a decision:
 if (score < 50) {
   document.write('You passed!');
 } else {
-    docoument.write('Try again...')
+    document.write('Try again...')
 }
 
 ### Things I want to know more about
