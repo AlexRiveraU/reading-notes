@@ -83,11 +83,11 @@ What the script uses to temporarily store the pieces of information it needs to 
 
 **OPERATORS:** Expressions rely on operators to create a single value from one or more values.
 
-* Assignment Operators: Assign a value to a variable =
-* Arithmetic Operators: Performs basic Math (+ - / * ++ -- %)
-* String Operators: Combine two strings +
-* Comparison Operators: Compares two values and return true or false (== != === !== > < >= <=)
-* Logical Operators: Combine expressions and return true or false (&& || !)
+* Assignment Operators: Assign a value to a variable
+* Arithmetic Operators: Performs basic Math
+* String Operators: Combine two strings
+* Comparison Operators: Compares two values and return true or false
+* Logical Operators: Combine expressions and return true or false
 
 >EVALUATING CONDITIONS & CONDITIONAL STATEMENTS
 
