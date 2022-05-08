@@ -91,7 +91,7 @@ What the script uses to temporarily store the pieces of information it needs to 
 
 >EVALUATING CONDITIONS & CONDITIONAL STATEMENTS
 
-There are two component to a decision:
+There are two components to a decision:
 
 1. An expression is evaluated and returns a value.
 2. A conditional statement says what to do in a given situation.
