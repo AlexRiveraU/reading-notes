@@ -32,7 +32,7 @@ There are several properties that change the appearance of html boxes using CSS:
 * **Border:** Separates the edge from one box to another. Width, color & style of a border can be changed.
 * **Margin:** Creates a gap between the border of two boxes. Sits outside the edge of a border.
   * CENTERING CONTENT: Set left-margin and right-margin to auto.
-* **Padding:** Space between the border and the contents of a box. *Margin and Padding together help with white space in a box*
+* **Padding:** Space between the border and the contents of a box. *Margin and Padding together help with white space in a box.*
 * **Display:** Turns an inline element into a block-level element or vice versa.
 * **Visibility:** Hides boxes but leaves the space it would have been.
 * **Border-image:** Applies an image to the border of any box. Slices the images into nine pieces.
@@ -90,7 +90,7 @@ switch (level) {
 
 ### LOOPS
 
-Loops check a condition, if it returns true, a code block will run. Then it checks if it still returns true, runs the code again, repeating until the conditions returns false. There are thre types of loops:
+Loops check a condition, if it returns true, a code block will run. Then it checks if it still returns true, runs the code again, repeating until the conditions returns false. There are three types of loops:
 
 * **For:** Used when you need to run the code a specific number of times.
 * **While:** Used if you don't know how many times the code should run.
