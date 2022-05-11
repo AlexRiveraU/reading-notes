@@ -81,12 +81,14 @@ We have to name it and write the statements needed as a code block for it to per
 
 ---
 
-### PAIR PGROGRAMMING
+## PAIR PGROGRAMMING
 
 Pair programming is the practice of two developers sharing a single workstation to interactively work on a coding task together. It involves two roles:
 
 * **Driver:** Programmer that types.
 * **Navigator:** Programmer that guides the driver. Using only their words.
+
+---
 
 ### Things I want to know more about
 
