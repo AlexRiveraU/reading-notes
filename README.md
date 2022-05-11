@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-Welcome! My name is Alejandro Rivera. I am in the process of a career / life change with [Code Fellows.](https://www.codefellows.org/) This is part of my learning journey.
+Welcome! My name is Alejandro Rivera. I am in the process of a career change with [Code Fellows.](https://www.codefellows.org/) This is part of my learning journey.
 
 ---
 
