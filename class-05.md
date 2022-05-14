@@ -2,7 +2,7 @@
 
 ## HTML IMAGES
 
-For images we use the `<img>` tag. It is an empty element, does not need a closing tag. We also use the attributes `src` `alt` and `title`. (e.g)
+For images we use the `<img>` tag. It is an empty element, does not need a closing tag. We also use the attributes `src`, `alt` and `title`. (e.g)
 
 `<img src="images/quokka.jpg" alt="A family of quokka" title="The quokka is an Australian marsupial." />`
 
