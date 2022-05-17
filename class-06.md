@@ -23,8 +23,8 @@ Data Types in JavaScript can be put in two categories:
 
 Objects group together a set of variables and functions to create a model of something you would recognized in the real world. Variables and functions change names when used in objects.
 
-Variable = **Property**
-Function = **Method**
+* Variable = **Property**
+* Function = **Method**
 
 Example:
 
@@ -32,15 +32,14 @@ let hotel = {
   name: 'Quary',
   rooms: 40,
   booked: 25,
-
   checkAvailability: function() {
     return this.rooms - this.booked;
   }
 }
 
-**DOT NOTATION:** Is the way we can access the properties or methods in an object. (e.g.)
+**DOT NOTATION:** Is the way we use to can access the properties or methods in an object. (e.g.)
 
-let hotelName = hote;.name;
+let hotelName = hotel.name;
 
 Properties can also be accessed using square brackets `[]`
 
