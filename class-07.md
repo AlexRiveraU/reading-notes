@@ -1,5 +1,20 @@
 # CLASS-07
 
+## DOMAIN MODELING
+
+Domain modeling is the process of creating a conceptual model in code for a specific problem. A model describes the several entities, values, their attributes and behaviors. A well articulated domain model can verify and validate our your understanding of the problem.
+
+* **Object oriented model:** Refers to an entity that stores data properties and encapsulates behaviors on methods.
+
+> Tips when building domain models
+
+1. When modeling a single entity that'll have many instances, build self-contained objects with the same attributes and behaviors.
+2. Model its attributes with a constructor function that defines and initializes properties.
+3. Model its behaviors with small methods that focus on doing one job well.
+4. Create instances using the new keyword followed by a call to a constructor function.
+5. Store the newly created object in a variable so you can access its properties and methods from outside.
+6. Use the `this` variable within methods so you can access the properties of objects and methods from inside.
+
 ## HTML TABLES
 
 Tables are various types of information that need to be displayed in a grid format. Like a spreadsheet.
