@@ -4,7 +4,7 @@
 
 ### ERROR HANDLING & DEBUGGING
 
-JavaScript can be hard to learn and we all make mistakes. In order to find and correct error is important to understand the **Executions Contexts** and **Variable Scope.**
+JavaScript can be hard to learn and we all make mistakes. In order to find and correct errors is important to understand the **Executiongit  Contexts** and **Variable Scope.**
 
 * **Global Context:** Refers to code that in the script but not in a function.
 * **Function Context:** Refers to code that is being run within a function.
