@@ -19,7 +19,7 @@ Forms allows us to collect information from visitors to our site.
   2. Image buttons
   3. File upload
   
-*Forms send the informaction to the servers in **name/value** pairs.*
+*Forms send the information to the servers in **name/value** pairs.*
 
 **We use the following elements:**
 
