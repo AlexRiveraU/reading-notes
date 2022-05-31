@@ -16,7 +16,7 @@ Welcome! My name is Alejandro Rivera. I am in the process of a career change wit
 6. [class-06](https://alexriverau.github.io/reading-notes/class-06)
 7. [class-07](https://alexriverau.github.io/reading-notes/class-07)
 8. [class-08](https://alexriverau.github.io/reading-notes/class-08)
-9. [Reading Assigment](*)
+9. [class-09](https://alexriverau.github.io/reading-notes/class-09)
 10. [class-10](https://alexriverau.github.io/reading-notes/class-10)
 11. [Reading Assigment](*)
 12. [Reading Assigment](*)
