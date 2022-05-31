@@ -56,8 +56,8 @@ Browsers register different types of events that make the script respond by upda
 2. Events trigger code.
 3. Code respond to users.
 
-*When events occur is described as being **fired** or **raised.***
-*Events **trigger** a function or script.
+* *When events occur is described as being **fired** or **raised.***
+* *Events **trigger** a function or script.*
 
 >TYPES OF EVENTS
 
