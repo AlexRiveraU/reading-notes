@@ -77,8 +77,8 @@ Browsers register different types of events that make the script respond by upda
 ### WAYS TO BIND AN EVENT TO AN ELEMENT
 
 * **HTML Event Handlers:** *It is bad practice now days. May find it in older code.*
-* **Event Handlers:** Allow us to trigger a single function.
-* **Event Listeners:** Allow to trigger multiple functions.
+* **Event Handlers:** Triggers a single function.
+* **Event Listeners:** Triggers multiple functions.
 
 >EVENT FLOW
 
