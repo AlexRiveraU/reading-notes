@@ -18,7 +18,7 @@ They can be used for persistent local storage of small amounts of data but have 
 
 ### HTML5 Storage
 
-It is way for web pages to store named key/value pairs locally within the client web browser. Data persists even after you navigate away from the web site, close your browser tab or exit your browser. This data is never transmitted to the remote web server, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.
+It is a way for web pages to store named key/value pairs locally within the client web browser. Data persists even after you navigate away from the web site, close your browser tab or exit your browser. This data is never transmitted to the remote web server, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.
 
 >JavaScript
 
