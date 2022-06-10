@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-Welcome! My name is Alejandro Rivera. I am in the process of a career change with [Code Fellows.](https://www.codefellows.org/) This is part of my learning journey.
+My name is Alejandro Rivera. I am in the process of a career change with [Code Fellows.](https://www.codefellows.org/) This is part of my learning journey.
 
 ---
 
@@ -19,7 +19,7 @@ Welcome! My name is Alejandro Rivera. I am in the process of a career change wit
 9. [class-09](https://alexriverau.github.io/reading-notes/class-09)
 10. [class-10](https://alexriverau.github.io/reading-notes/class-10)
 11. [class-11](https://alexriverau.github.io/reading-notes/class-11)
-12. [Reading Assigment](*)
+12. [class-12](https://alexriverau.github.io/reading-notes/class-12)
 13. [class-13](https://alexriverau.github.io/reading-notes/class-13)
 14. [Reading Assigment](*)
 15. [Reading Assigment](*)
@@ -43,4 +43,4 @@ Welcome! My name is Alejandro Rivera. I am in the process of a career change wit
 
 ### Contact
 
-Email: [HERE](mailto:alexrivera78@gmail.com)
+[Email](mailto:alexrivera78@gmail.com)
