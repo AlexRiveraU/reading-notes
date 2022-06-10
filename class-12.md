@@ -19,7 +19,11 @@ canvas.height = 400;
 
 * `getContext()` Method featured in the `<canvas>` element that returns a render context object. Takes one argument which is the type of context. For example `"2d"` to get a 2D rendering context object. The 2D rendering context allows us to draw shapes, text, images, and other objects. It is important to check if the browser supports the `getContext()` method. (e.g.)
 
-`if(canvas.getContext) {let ctx = main.getContext('2d');}`
+```JavaScript
+if(canvas.getContext) {
+  let ctx = main.getContext('2d');
+}
+```
 
 **The 2D Context:** We can draw simple 2D shapes, rectangles, and arcs. The coordinates begin at the upper-left of the element, which is point `(0,0)` with `x` increasing to the right and `y` increasing to the bottom.
 
