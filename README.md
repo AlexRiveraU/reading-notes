@@ -21,7 +21,7 @@ My name is Alejandro Rivera. I am a Software Development student at [Code Fellow
 11. [class-11](https://alexriverau.github.io/reading-notes/class-11)
 12. [class-12](https://alexriverau.github.io/reading-notes/class-12)
 13. [class-13](https://alexriverau.github.io/reading-notes/class-13)
-14. [Reading Assigment](*)
+14. [class-14a](https://alexriverau.github.io/reading-notes/class-14a)
 15. [Reading Assigment](*)
 
 ---
