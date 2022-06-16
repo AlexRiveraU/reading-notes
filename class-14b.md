@@ -2,7 +2,7 @@
 
 ## WHAT GOOGLE LEARNED ABOUT TEAMS
 
-Working in groups can be very stressful. There is always a feeling that we have to prove ourselves to others. Many firms have been researching this topic for years and have come to realize that ‘’employee performance optimization’’ which is the process of analyzing and improving individual workers, is not enough.
+Working in groups can be very stressful. There is always a feeling that we have to prove ourselves to others. Many firms have been researching this topic for years and have come to realize that "employee performance optimization" which is the process of analyzing and improving individual workers, is not enough.
 
 Studies have shown that software engineers working in groups tend to innovate faster, see mistakes more quickly and find better solutions to problems.
 
