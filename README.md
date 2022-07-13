@@ -1,43 +1,16 @@
-# INTRODUCTION
+# READING NOTES
 
-My name is Alejandro Rivera. I am a Software Development student at [Code Fellows](https://www.codefellows.org/) in the process of a career change. This is part of my learning journey.
-
----
-
-## CODE 201 READING NOTES
-
-### Table of Contents
-
-1. [class-01](https://alexriverau.github.io/reading-notes/class-01)
-2. [class-02](https://alexriverau.github.io/reading-notes/class-02)
-3. [class-03](https://alexriverau.github.io/reading-notes/class-03)
-4. [class-04](https://alexriverau.github.io/reading-notes/class-04)
-5. [class-05](https://alexriverau.github.io/reading-notes/class-05)
-6. [class-06](https://alexriverau.github.io/reading-notes/class-06)
-7. [class-07](https://alexriverau.github.io/reading-notes/class-07)
-8. [class-08](https://alexriverau.github.io/reading-notes/class-08)
-9. [class-09](https://alexriverau.github.io/reading-notes/class-09)
-10. [class-10](https://alexriverau.github.io/reading-notes/class-10)
-11. [class-11](https://alexriverau.github.io/reading-notes/class-11)
-12. [class-12](https://alexriverau.github.io/reading-notes/class-12)
-13. [class-13](https://alexriverau.github.io/reading-notes/class-13)
-14. [class-14a](https://alexriverau.github.io/reading-notes/class-14a)
-15. [class-14b](https://alexriverau.github.io/reading-notes/class-14b)
+>My name is Alejandro Rivera. I am a Software Development student at [Code Fellows](https://www.codefellows.org/) in the process of a career change. This is part of my learning journey.
 
 ---
 
-### CODE 102 READING NOTES
+## [Code 102 - Intro to Software Development](https://alexriverau.github.io/reading-notes/code102)
 
-### Table of Contents
+## [Code 201 - Foundations of Software Development](https://alexriverau.github.io/reading-notes/code201)
 
-* [Growth Mindset](https://alexriverau.github.io/reading-notes/code102_read01)
-* [The Coder’s Computer](https://alexriverau.github.io/reading-notes/code102_read02)
-* [Revision and the Cloud](https://alexriverau.github.io/reading-notes/code102_read03)
-* [Structure web pages with HTML](https://alexriverau.github.io/reading-notes/code102_read04)
-* [CSS](https://alexriverau.github.io/reading-notes/code102_read05)
-* [Dynamic web pages with JavaScript](https://alexriverau.github.io/reading-notes/code102_read06)
-* [Programming with JavaScript](https://alexriverau.github.io/reading-notes/code102_read07)
-* [Operators and Loops](https://alexriverau.github.io/reading-notes/code102_read08)
+## [Code 301 - Intermediate Software Development](https://alexriverau.github.io/reading-notes/code301)
+
+## [Code 401 - Advanced Software Development](https://alexriverau.github.io/reading-notes/code401)
 
 ---
 
