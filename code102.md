@@ -1,6 +1,6 @@
 # CODE 102 Reading Notes
 
-## Table of Contents
+---
 
 * [Growth Mindset](https://alexriverau.github.io/reading-notes/code102_read01)
 * [The Coder’s Computer](https://alexriverau.github.io/reading-notes/code102_read02)

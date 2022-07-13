@@ -1,6 +1,6 @@
 # CODE 201 Reading Notes
 
-## Table of Contents
+---
 
 1. [class-01](https://alexriverau.github.io/reading-notes/class-01)
 2. [class-02](https://alexriverau.github.io/reading-notes/class-02)
