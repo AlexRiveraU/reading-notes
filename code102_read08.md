@@ -22,4 +22,4 @@ Loops offer a quick and easy way to do something repeatedly. There are many diff
 
 ---
 
-[-back home](https://alexriverau.github.io/reading-notes/)
+[-back](https://alexriverau.github.io/reading-notes/code102)

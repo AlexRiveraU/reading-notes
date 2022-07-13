@@ -38,4 +38,4 @@ In programming, semantics refers to the meaning of a piece of code. The purpo
 
 ---
 
-[-back home](https://alexriverau.github.io/reading-notes/)
+[-back](https://alexriverau.github.io/reading-notes/code102)

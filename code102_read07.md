@@ -43,4 +43,4 @@ In JavaScript, an operator is a special symbol used to perform operations on ope
 
 ---
 
-[-back home](https://alexriverau.github.io/reading-notes/)
+[-back](https://alexriverau.github.io/reading-notes/code102)

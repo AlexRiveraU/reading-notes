@@ -26,4 +26,4 @@ Git is a DVCS that stores data in a file system made up of snapshots. Each time 
 
 ---
 
-[-back home](https://alexriverau.github.io/reading-notes/)
+[-back](https://alexriverau.github.io/reading-notes/code102)

@@ -39,4 +39,4 @@ Through wires and circuits computers carry all the data in electrical signals. W
 
 ---
 
-[-back home](https://alexriverau.github.io/reading-notes/)
+[-back](https://alexriverau.github.io/reading-notes/code102)
