@@ -4,15 +4,13 @@ My name is Alejandro Rivera. I am a Software Development student at [Code Fellow
 
 ---
 
-## Course
+## [Code 102 - Intro to Software Development](https://alexriverau.github.io/reading-notes/code102)
 
-### [Code 102 - Intro to Software Development](https://alexriverau.github.io/reading-notes/code102)
+## [Code 201 - Foundations of Software Development](https://alexriverau.github.io/reading-notes/code201)
 
-### [Code 201 - Foundations of Software Development](https://alexriverau.github.io/reading-notes/code201)
+## [Code 301 - Intermediate Software Development](https://alexriverau.github.io/reading-notes/code301)
 
-### [Code 301 - Intermediate Software Development](https://alexriverau.github.io/reading-notes/code301)
-
-### [Code 401 - Advanced Software Development](https://alexriverau.github.io/reading-notes/code401)
+## [Code 401 - Advanced Software Development](https://alexriverau.github.io/reading-notes/code401)
 
 ---
 
