@@ -4,7 +4,7 @@ My name is Alejandro Rivera. I am a Software Development student at [Code Fellow
 
 ---
 
-## Table of Contents
+## Course
 
 ### [Code 102 - Intro to Software Development](https://alexriverau.github.io/reading-notes/code102)
 
