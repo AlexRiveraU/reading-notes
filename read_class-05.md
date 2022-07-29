@@ -1,6 +1,6 @@
 # Putting it all together
 
-We just finished our project "Gallery of Horns". We learned how to create components in React, how to use props and sate, array methods like, `.map()`, `.filter()`, `.find()`, using modals, passing functions as props between child and parent components and using forms with bootstrap. This topic matters as it relates to putting all this together for a better overall understanding.
+We just finished our project "Gallery of Horns". We learned how to create components in React, how to use props and state, array methods like, `.map()`, `.filter()`, `.find()`, using modals, passing functions as props between child and parent components and using forms with bootstrap. This topic matters as it relates to putting all this together for a better overall understanding.
 
 ---
 
