@@ -8,6 +8,7 @@
 2. [read_class-02](https://alexriverau.github.io/reading-notes/read_class-02)
 3. [read_class-03](https://alexriverau.github.io/reading-notes/read_class-03)
 4. [read_class-04](https://alexriverau.github.io/reading-notes/read_class-04)
+5. [read_class-05](https://alexriverau.github.io/reading-notes/read_class-05)
 
 ---
 
