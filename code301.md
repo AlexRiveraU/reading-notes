@@ -10,6 +10,7 @@
 4. [read_class-04](https://alexriverau.github.io/reading-notes/read_class-04)
 5. [read_class-05](https://alexriverau.github.io/reading-notes/read_class-05)
 6. [read_class-06](https://alexriverau.github.io/reading-notes/read_class-06)
+7. [read_class-07](https://alexriverau.github.io/reading-notes/read_class-07)
 
 ---
 
