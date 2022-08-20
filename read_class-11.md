@@ -92,7 +92,7 @@ Sometimes we can have duplicate data.
 
 ### Things I want to know more about
 
-* I would like to know more about how to immplement different types of data bases.
+* I would like to know more about how to implement different types of data bases.
 
 ---
 
