@@ -11,16 +11,16 @@ We just started working on our Can of Books project for this module. Last lab we
 * **100’s =** Informational status codes. The header part of the request has been received and the server will try to fulfill the request.
 * **200’s =** Success codes. The request was accepted. It doesn't mean it was processed.
 * **300’s =** Redirection codes.The requested resource is not available at the expected location anymore.
-**400’s =** Client error codes. Invalid requests from client to server.
-**500’s =** Server error codes. Problems with overwhelmed servers or unreachable servers behind proxies. Sometimes can related to client requests.
+* **400’s =** Client error codes. Invalid requests from client to server.
+* **500’s =** Server error codes. Problems with overwhelmed servers or unreachable servers behind proxies. Sometimes can related to client requests.
 
 **What is a status code 202?**
 
-Accepted - The request was valid but still processing. The response should include an URL to the finished resource or to some monitoring endpoint that tells the client when the resource will be available.
+Accepted - The request was valid but still processing. The response should include a URL to the finished resource or to some monitoring endpoint that tells the client when the resource will be available.
 
 **What is a status code 308?**
 
-Permanent Redirect - Tells the client to use another URL to access the resource and not the current URL anymore.
+Permanent Redirect - Tells the client to use another URL to access the resource and not the current one anymore.
 
 **What code would you use if an update didn’t return data to a client?**
 
@@ -56,7 +56,7 @@ It means that it is parameter that we can access with dot notation. (e.g) `req.p
 
 **What is the difference between** `PUT` **and** `PATCH`**?**
 
-PATCH only updates the information that gets passed. PUT updates all the information at once.
+PUT updates all the information at once. PATCH only updates the information that gets passed.
 
 **How do you make a default value in a schema?**
 
@@ -68,7 +68,7 @@ It means that there is an error on our server.
 
 **What is the difference between a status** `200` **and a status** `201` **?**
 
-200 means that everything was successful. 201 means that we successfully created an object, a more specific way of saying that we created something.
+200 means that everything was successful. 201 means that we successfully created an object. A more specific way of saying that we created something.
 
 ---
 
