@@ -12,7 +12,7 @@ We just started working on our Can of Books project for this module. Last lab we
 * **200’s =** Success codes. The request was accepted. It doesn't mean it was processed.
 * **300’s =** Redirection codes.The requested resource is not available at the expected location anymore.
 * **400’s =** Client error codes. Invalid requests from client to server.
-* **500’s =** Server error codes. Problems with overwhelmed servers or unreachable servers behind proxies. Sometimes can related to client requests.
+* **500’s =** Server error codes. Problems with overwhelmed servers or unreachable servers behind proxies. Sometimes can be related to client requests.
 
 **What is a status code 202?**
 
