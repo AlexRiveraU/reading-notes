@@ -25,7 +25,7 @@ REST uses the HTTP methods `POST`, `GET`, `PUT` and `DELETE` to allow users to C
 **If you had to describe the process of creating a RESTful API in 5 steps, what would they be?**
 
 1. Identify Resources.
-2. Create URLs.
+2. Create URIs.
 3. Determine how the data will be presented.
 4. Assign HTTP methods for CRUD  operations.
 5. Error handling and any other actions needed for app functionality.
