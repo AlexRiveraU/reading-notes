@@ -20,7 +20,7 @@ The `PUT` method. It replaces all current data of the target resource with the u
 
 **What’s the relationship between REST and CRUD?**
 
-REST uses the HTTP methods POST, GET, PUT and DELETE to allow users to Create, Read, Update and Delete (CRUD).
+REST uses the HTTP methods `POST`, `GET`, `PUT` and `DELETE` to allow users to Create, Read, Update and Delete (CRUD).
 
 **If you had to describe the process of creating a RESTful API in 5 steps, what would they be?**
 
