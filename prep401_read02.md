@@ -13,7 +13,7 @@ One thing I bring to this career is my ability to adapt quickly and efficiently 
 * **What are 3 things I’ll start doing to “un-stick” myself whenever I get stuck on tough piece of code, logic, or feature?**
 
 1. Make sure that I'm understanding the problem correctly.
-2. Retrace my attempted solution step by step to try to find out any errors or mistakes.
+2. Retrace my attempted solution step by step to try to find any errors or mistakes.
 3. Do more research online to see if someone else has had the same issue and ask for help.
 
 ---
