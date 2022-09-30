@@ -5,6 +5,7 @@
 ## Table of Contents
 
 * [Data Structures and Algorithms](https://alexriverau.github.io/reading-notes/prep401_read01)
+* [Engineering Readings](https://alexriverau.github.io/reading-notes/prep401_read02)
 
 1. [read-01](*)
 
