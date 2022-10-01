@@ -12,12 +12,12 @@ The command line, also known as terminal, is a text based interface to our compu
 
 * **Basic Navigation**
 
-The command `pwd` stands for Print Working Directory. It tells us where our current working directory is. (e.g)
+The command `pwd` stands for Print Working Directory. It tells us where our current working directory is. (e.g.)
 
       pwd
       /home/user
 
-The command `ls` lists the contents of a directory. (e.g)
+The command `ls` lists the contents of a directory. (e.g.)
 
       ls
       bin Documents public_html
@@ -36,16 +36,18 @@ The command `ls -a` lists the contents of a directory, including hidden files.
 
 Manual pages are a set of pages that explain every command available on our system including what they do, the specifics of how you run them and what command line arguments they accept.
 
-The command `man <command to look up>` invokes the manual pages.
+The command `man <command to look up>` invokes the manual pages.(e.g.)
 
       man ls
+      
       Name 
       ls - list directory contents
+      
       Synopsis
       ls [option] ... [file] ...
+      
       Description
-      List information about the FILEs (the current directory by default). 
-      Sort entries alphabetically if none of -cftuvSUX nor --sort is specified
+      List information about the FILEs
 
 To do a keyword search for all manual pages containing the given search term we use the `man -k <search term>` command.
 
