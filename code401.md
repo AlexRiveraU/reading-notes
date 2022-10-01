@@ -9,7 +9,7 @@
 * [SQL Practice](https://alexriverau.github.io/reading-notes/prep401_read03)
 * [The Command Line](https://alexriverau.github.io/reading-notes/prep401_read04)
 
-1. [read-01](https://alexriverau.github.io/reading-notes/read01)
+1. [read-01](https://alexriverau.github.io/reading-notes/read-01)
 
 ---
 
