@@ -41,13 +41,17 @@ The command `man <command to look up>` invokes the manual pages.(e.g.)
       man ls
       
       Name 
-      ls - list directory contents
+        ls - list directory contents
       
       Synopsis
-      ls [option] ... [file] ...
+        ls [option] ... [file] ...
       
       Description
-      List information about the FILEs
+        List information about the FILEs
+        (the current directory by default).
+        Sort entries alphabetically
+        if none of -cftuvSUX 
+        nor --sort is specified.
 
 To do a keyword search for all manual pages containing the given search term we use the `man -k <search term>` command.
 
