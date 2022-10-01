@@ -15,15 +15,15 @@ The command line, also known as terminal, is a text based interface to our compu
 The command `pwd` stands for Print Working Directory. It tells us where our current working directory is. (e.g)
 
 ```
-pwd
-/home/user
+  pwd
+  /home/user
 ```
 
 The command `ls` lists the contents of a directory. (e.g)
 
 ```
-ls
-bin Documents public_html
+  ls
+  bin Documents public_html
 ```
 
 The command `cd` changes directories.
@@ -43,23 +43,17 @@ Manual pages are a set of pages that explain every command available on our syst
 The command `man <command to look up>`invokes the manual pages. (e.g)
 
 ```
-man ls
-Name
-    ls - list directory contents
- 
-Synopsis
-    ls [option] ... [file] ...
- 
-Description
-    List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
- 
-    Mandatory arguments to long options are mandatory for short options too.
- 
-    -a, --all
-        do not ignore entries starting with .
- 
-    -A, --almost-all
-        do not list implied . and ..
+  man ls
+  Name
+      ls - list directory contents
+  
+  Synopsis
+      ls [option] ... [file] ...
+  
+  Description
+      List information about the FILEs (the current directory by default). Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+  
+      Mandatory arguments to long options are mandatory for short options too.
 ```
 
 To do a keyword search for all manual pages containing the given search term we use the `man -k <search term>` command.
