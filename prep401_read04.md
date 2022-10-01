@@ -39,24 +39,13 @@ Manual pages are a set of pages that explain every command available on our syst
 The command `man <command to look up>` invokes the manual pages.
 
       man ls
-      Name
-      
+      Name 
       ls - list directory contents
-      
       Synopsis
       ls [option] ... [file] ...
-      
       Description
       List information about the FILEs (the current directory by default). 
       Sort entries alphabetically if none of -cftuvSUX nor --sort is specified
-      
-      Mandatory arguments to long options are mandatory for short options too.
-      
-      -a, --all
-      do not ignore entries starting with .
-      
-      -A, --almost-all
-      do not list implied . and ..
 
 To do a keyword search for all manual pages containing the given search term we use the `man -k <search term>` command.
 
