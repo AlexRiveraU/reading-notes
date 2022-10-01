@@ -56,8 +56,6 @@ The command `man <command to look up>`invokes the manual pages. (e.g)
       Mandatory arguments to long options are mandatory for short options too.
 ```
 
-To do a keyword search for all manual pages containing the given search term we use the `man -k <search term>` command.
-
 * **File Manipulation**
 
   * To make / create a directory we use `mkdir`.
