@@ -38,6 +38,7 @@ Manual pages are a set of pages that explain every command available on our syst
 
 The command `man <command to look up>`invokes the manual pages. (e.g)
 
+```
     man ls
     Name
         ls - list directory contents
@@ -55,6 +56,7 @@ The command `man <command to look up>`invokes the manual pages. (e.g)
     
         -A, --almost-all
             do not list implied . and ..
+```
 
 To do a keyword search for all manual pages containing the given search term we use the `man -k <search term>` command.
 
