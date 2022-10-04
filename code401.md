@@ -9,7 +9,8 @@
 * [SQL Practice](https://alexriverau.github.io/reading-notes/prep401_read03)
 * [The Command Line](https://alexriverau.github.io/reading-notes/prep401_read04)
 
-1. [read-01](https://alexriverau.github.io/reading-notes/read-01)
+1. [Big O Notation](https://alexriverau.github.io/reading-notes/read-01)
+2. [Testing and Modules](https://alexriverau.github.io/reading-notes/read-02)
 
 ---
 

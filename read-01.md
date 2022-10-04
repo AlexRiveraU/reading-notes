@@ -1,4 +1,4 @@
-# Read: Class 01
+# Big O Notation
 
 This topic matters as it relates to the introduction of Big O notation, which is going to be a fundamental part of this course.
 
