@@ -8,7 +8,7 @@ This topic matters as it relates to learning proper testing practices, modules a
 
 Test-Driven Development (TDD) is a strategy to think and write tests first. More than any checking, it's about crafting our software design first.
 
-Unit tests are some pieces of code to exercise the input, the output and the behavior of your code. (e.g)
+Unit tests are some pieces of code to exercise the input, the output and the behaviour of your code. (e.g)
 ```python
 def test_should_return_female_when_the_name_is_from_female_gender():
     detector = GenderDetector()
