@@ -63,7 +63,7 @@ with open('dog_breeds.txt') as reader:
 
 ### Reading and Writing Opened Files
 
-* Read
+**Read**
 
 We use the following methods:
 
@@ -71,7 +71,7 @@ We use the following methods:
 * `.readline(size=-1)`	This reads at most size number of characters from the line. This continues to the end of the line and then wraps back around. If no argument is passed or None or -1 is passed, then the entire line (or rest of the line) is read.
 * `.readlines()` This reads the remaining lines from the file object and returns them as a list.
 
-* Write
+**Write**
 
 We use the following methods:
 
@@ -82,9 +82,43 @@ We use the following methods:
 
 ---
 
+## Exceptions in Python
+
+### Exceptions versus Syntax Errors
+
+* **Syntax errors:** Occur when the parser detects an incorrect statement. (e.g.)
+
+```python
+>>> print( 0 / 0 ))
+  File "<stdin>", line 1
+    print( 0 / 0 ))
+                  ^
+SyntaxError: invalid syntax
+```
+
+* **Exception errors:** Occur whenever syntactically correct Python code results in an error. (e.g.)
+
+```python
+>>> print( 0 / 0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: integer division or modulo by zero
+```
+
+* `raise` Allows us to throw an exception at any time. 
+* `assert` Enables us to verify if a certain condition is met and throw an exception if it isn’t.
+* `try` All statements are executed until an exception is encountered.
+`except` is used to catch and handle the exception(s) that are encountered in the `try` clause.
+* `else` Lets us code sections that should run only when no exceptions are encountered in the `try` clause.
+* `finally` Enables us to execute sections of code that should always run, with or without any previously encountered exceptions.
+
+[*source*](https://realpython.com/python-exceptions/)
+
+---
+
 ### Things I want to know more about
 
-* I would like to know more about other options for modes to work with files.
+* I would like to know more about other options for modes to work with files and how to implement exceptions efficiently.
 
 ---
 
