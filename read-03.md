@@ -13,8 +13,8 @@ A file is a contiguous set of bytes used to store data. This data is organized i
 > Main parts
 
 * **Header:** Metadata about the contents of the file.
-* **Data:** Contents of the file as written by the creator or editor
-* **End of file (EOF):** Special character that indicates the end of the file
+* **Data:** Contents of the file as written by the creator or editor.
+* **End of file (EOF):** Special character that indicates the end of the file.
 
 **File Paths**
 
@@ -22,20 +22,21 @@ File path is a string that represents the location of a file.
 
 >Main parts
 
-* **Folder Path:** The file folder location on the file system where subsequent folders are separated by a forward slash / (Unix) or backslash \ (Windows)
-* **File Name:** The actual name of the file
-* **Extension:** The end of the file path pre-pended with a period (.) used to indicate the file type
+* **Folder Path:** The file folder location on the file system where subsequent folders are separated by a forward slash / (Unix) or backslash \ (Windows).
+* **File Name:** The actual name of the file.
+* **Extension:** The end of the file path pre-pended with a period (.) used to indicate the file type.
 
 ### Opening and Closing a File in Python
 
-* **Open a file**
+**Open a file**
 
 We do this by invoking the `open()` built-in function. `open()` has a single required argument that is the path to the file. `open()` has a single return. (e.g.)
 
 ```python
 file = open('dog_breeds.txt')
 ```
-* **Close a file**
+
+**Close a file**
 
 One way to close a file is by using a `try-finally` block (e.g.)
 
@@ -56,10 +57,9 @@ with open('dog_breeds.txt') as reader:
 
 >Common mode options:
 
-* `r`	Open for reading (default)
-* `w`	Open for writing, truncating (overwriting) the file first
-* `rb` or `wb`	Open in binary mode (read/write using byte data)
-
+* `r`	Open for reading (default).
+* `w`	Open for writing, truncating (overwriting) the file first.
+* `rb` or `wb`	Open in binary mode (read/write using byte data).
 
 ### Reading and Writing Opened Files
 
@@ -86,7 +86,7 @@ We use the following methods:
 
 ### Exceptions versus Syntax Errors
 
-* **Syntax errors:** Occur when the parser detects an incorrect statement. (e.g.)
+**Syntax errors:** Occur when the parser detects an incorrect statement. (e.g.)
 
 ```python
 >>> print( 0 / 0 ))
@@ -96,7 +96,7 @@ We use the following methods:
 SyntaxError: invalid syntax
 ```
 
-* **Exception errors:** Occur whenever syntactically correct Python code results in an error. (e.g.)
+**Exception errors:** Occur whenever syntactically correct Python code results in an error. (e.g.)
 
 ```python
 >>> print( 0 / 0)
@@ -108,7 +108,7 @@ ZeroDivisionError: integer division or modulo by zero
 * `raise` Allows us to throw an exception at any time. 
 * `assert` Enables us to verify if a certain condition is met and throw an exception if it isn’t.
 * `try` All statements are executed until an exception is encountered.
-`except` is used to catch and handle the exception(s) that are encountered in the `try` clause.
+* `except` is used to catch and handle the exception(s) that are encountered in the `try` clause.
 * `else` Lets us code sections that should run only when no exceptions are encountered in the `try` clause.
 * `finally` Enables us to execute sections of code that should always run, with or without any previously encountered exceptions.
 
