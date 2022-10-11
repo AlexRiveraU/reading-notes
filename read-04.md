@@ -45,7 +45,7 @@ myobjecty.variable = "yackity"
 
 >Accessing Object Functions
 
-To access a function inside an object we also use dot notation similar. (e.g.)
+To access a function inside an object we also use dot notation. (e.g.)
 
 ```python
 myobjectx.function()
