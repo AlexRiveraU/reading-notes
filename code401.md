@@ -12,6 +12,7 @@
 1. [Big O Notation](https://alexriverau.github.io/reading-notes/read-01)
 2. [Testing and Modules](https://alexriverau.github.io/reading-notes/read-02)
 3. [FileIO & Exceptions](https://alexriverau.github.io/reading-notes/read-03)
+4. [Classes and Objects / Thinking Recursively](https://alexriverau.github.io/reading-notes/read-04)
 
 ---
 
