@@ -167,6 +167,14 @@ def fibonacci_recursive(n):
 
 ---
 
+## Pytest Fixtures and Coverage
+
+* **Fixtures:** This is when we have objects available to all of ours tests and those objects might contain data we want to share across tests, or they might involve the network or filesystem. We use the `pytest.fixture` decorator along with a function.
+
+* **Coverage:** Checks that our tests have run all the code.
+
+---
+
 ### Things I want to know more about
 
 * I would like to know more about maintaining state in recursive functions and implementing recursive data structures in python.
