@@ -13,6 +13,7 @@
 2. [Testing and Modules](https://alexriverau.github.io/reading-notes/read-02)
 3. [FileIO & Exceptions](https://alexriverau.github.io/reading-notes/read-03)
 4. [Classes and Objects / Thinking Recursively](https://alexriverau.github.io/reading-notes/read-04)
+5. [Ten Thousand Game 1](https://alexriverau.github.io/reading-notes/read-05)
 
 ---
 
