@@ -42,7 +42,39 @@ def update_counter():
 
 >The nonlocal Statement
 
-Nonlocal names can be accessed from inner functions, but not assigned or updated. To modify this behavior, we can use a nonlocal statement. With a nonlocal statement, we can define a list of names that are going to be treated as nonlocal.
+Nonlocal names can be accessed from inner functions, but not assigned or updated. To modify this behavior, we can use a nonlocal statement. We use the `nonlocal` keyword followed by one or more names separated by commas. (e.g.)
+
+```python
+def func():
+    var = 100  # A nonlocal variable
+    def nested():
+        nonlocal var  # Declare var as nonlocal
+        var += 100
+
+    nested()
+    print(var)
+
+func()
+```
+
+* `globals()`: built-in function that returns a reference to the current global scope or namespace dictionary. We get a dictionary containing all the names that we’ve defined in the module, right before the call to globals(). (e.g.)
+
+```python
+globals()
+{'__name__': '__main__',..., '__builtins__': <module 'builtins' (built-in)>}
+```
+
+* `locals()`: built-in function that updates and returns a dictionary that holds a copy of the current state of the local Python scope or namespace. We get all the names assigned in the local or function scope up to the point where you call locals(). (e.g.)
+
+```python
+def func(arg):
+    var = 100
+    print(locals())
+    another = 200
+
+func(300)
+# {'var': 100, 'arg': 300}
+```
 
 [*source*](https://realpython.com/python-scope-legb-rule/)
 
@@ -52,7 +84,7 @@ Nonlocal names can be accessed from inner functions, but not assigned or updated
 
 ### Things I want to know more about
 
-* I would like to know more about Big O Notation and how to use the Random Module in Python
+* I would like to know more about the LEGB rule and how to implement it correctly in Python.
 
 ---
 
