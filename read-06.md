@@ -1,90 +1,128 @@
-# Ten Thousand 2
+# Ten Thousand Game 1
 
-This topic matters as it relates to learning about modifying the behavior of a Python scope using the `global` and `nonlocal` keywords.
+This topic matters as it relates to learning the use of the Random Module in Python, how to perform risk analysis in software testing, test coverage and Big O Notation.
 
 ---
 
-## Python Scope
+## How to use Random Module
 
-The concept of scope rules how variables and names are looked up in our code. It determines the visibility of a variable within the code. The Python scope concept is generally presented using a rule known as the LEGB (Local, Enclosing, Global, and Built-in) rule.
+The random module provides access to functions that support many operations and allows us to generate random numbers. It contains some very useful functions:
 
-* **Global scope:** The names defined in this scope are available to all our code.
-* **Local scope:** The names defined in this scope are only available or visible to the code within the scope. 
-
-The moment we start a Python program, we’re in the global scope. Internally, Python turns our program’s main script into a module called __main__ to hold the main program’s execution. The namespace of this module is the main global scope of our program.
-
-`dir()` When we call it we get the list of names available in your main global scope. (e.g.)
-
+* **Randint:** Generates a random integer. Takes in two parameters (lowest and highest number). (e.g.)
 ```python
-dir()
-['__annotations__', '__builtins__',..., '__package__', '__spec__']
+import random
+print random.randint(0, 5)
+# output either 1, 2, 3, 4 or 5.
 ```
 
-### Modifying the Behavior of a Python Scope
-
-Python provides two keywords that allows us to modify the content of global and nonlocal names:
-
-1. global
-2. nonlocal
-
->The global Statement
-
-To assign a value to a global name inside a function, we create a new local name in the function scope. To modify this behavior, we can use a global statement. We use the `global` keyword followed by one or more names separated by commas. (e.g.)
-
+* **Random:** Multiplies to get a larger number. (e.g.)
 ```python
-counter = 0  # A global name
-def update_counter():
-    global counter  # Declare counter as global
-    counter = counter + 1  # Successfully update the counter
+import random
+random.random() * 100
 ```
 
-***Note:** The use of global is considered bad practice in general.*
-
->The nonlocal Statement
-
-Nonlocal names can be accessed from inner functions, but not assigned or updated. To modify this behavior, we can use a nonlocal statement. We use the `nonlocal` keyword followed by one or more names separated by commas. (e.g.)
-
+* **Choice:** Generates a random value from a sequence. Like a list. (e.g.)
 ```python
-def func():
-    var = 100  # A nonlocal variable
-    def nested():
-        nonlocal var  # Declare var as nonlocal
-        var += 100
-
-    nested()
-    print(var)
-
-func()
+import random
+myList = [2, 109, False, 10, "Lorem", 482, "Ipsum"]
+random.choice(myList)
 ```
 
-* `globals()`: built-in function that returns a reference to the current global scope or namespace dictionary. We get a dictionary containing all the names that we’ve defined in the module, right before the call to globals(). (e.g.)
-
+* **Shuffle:** Shuffles the elements in list in place, so they are in a random order. (e.g.)
 ```python
-globals()
-{'__name__': '__main__',..., '__builtins__': <module 'builtins' (built-in)>}
+from random import shuffle
+x = [[i] for i in range(10)]
+shuffle(x)
+# Output:
+# print x  gives  [[9], [2], [7], [0], [4], [5], [3], [1], [8], [6]]
+# of course your results will vary
 ```
 
-* `locals()`: built-in function that updates and returns a dictionary that holds a copy of the current state of the local Python scope or namespace. We get all the names assigned in the local or function scope up to the point where you call locals(). (e.g.)
-
+* **Randrange:** Generates a randomly selected element from range (start, stop, step).
 ```python
-def func(arg):
-    var = 100
-    print(locals())
-    another = 200
-
-func(300)
-# {'var': 100, 'arg': 300}
+random.randrange(start, stop[, step])
+import random
+for i in range(3):
+    print random.randrange(0, 101, 5)
 ```
 
-[*source*](https://realpython.com/python-scope-legb-rule/)
+[*source*](https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python)
 
+---
 
+## What is Risk Analysis
+
+In software testing risk analysis is the process of identifying the risks in applications we build prioritizing them to test. Using risk analysis at the beginning of a project highlights the potential problem areas helping us to mitigate the risks. When a test plan has been created, risks involved in testing the product are to be taken into consideration along with the possibility of the damage they may cause to our software along with solutions.
+
+>Possible risks
+
+* Use of new hardware
+* Use of new technology
+* Use of new automation tool
+* The sequence of code
+* Availability of test resources for the application
+
+>Unavoidable risks
+
+* Time allocated for testing 
+* A defect leakage due to the complexity or size of the application 
+* Urgency from the clients to deliver the project 
+* Incomplete requirements
+
+### Risk Identification
+
+* **Business Risks:** It is the risk that may come from our company or our customer, not from your project.
+* **Testing Risks:** We should be well acquainted with the platform we are working on, along with the software testing tools being used.
+* **Premature Release Risk:** Risk associated with releasing unsatisfactory or untested software.
+* **Software Risks:** We should be well versed with the risks associated with the software development process.
+
+### Risk Assessment
+
+In the risk analysis process. The most important one. It has to be dealt programmatically.
+
+>Perspective of Risk Assessment
+
+* **Effect** When we identify a condition, event or action and try to determine its impact.
+* **Cause** Initialize scanning the problem and reach to the point that could be the most probable reason behind that.
+* **Likelihood** When we say that there is a probability that a requirement won’t be satisfied.
+
+>Perform Risk Analysis 
+
+* Searching the risk.
+* Analyzing the impact of each individual risk.
+* Measures for the risk identified.
+
+[*source*](https://www.edureka.co/blog/risk-analysis-in-software-testing/)
+
+---
+
+## Test Coverage
+
+Test coverage (aka code coverage) is a useful tool for finding untested parts of a codebase. Testing requires thoughtfulness. TDD is a very useful tool to help us get good tests, but sometimes we need to do more. If we are testing correctly we would expect a coverage percentage in the upper 80s or 90s. Anything like 100% would be suspicious, like if someone is writing tests to make the coverage numbers look good, but not thinking about what they are doing. Doing enough testing means:
+
+* We rarely get bugs that escape into production.
+* We're rarely hesitant to change some code for fear it will cause production bugs.
+
+[*source*](https://martinfowler.com/bliki/TestCoverage.html)
+
+---
+
+## Big O Notation
+
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. It specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used by an algorithm.
+
+* **O(1)** Describes an algorithm that will always execute in the same time or space regardless of the size of the input data set.
+* **O(N)** Describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set.
+* **O(N²)** Represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. Deeper nested iterations will result in O(N³), O(N⁴) etc.
+* **O(2^N)** Denotes an algorithm whose growth doubles with each addition to the input data set. The growth curve of an O(2^N) function is exponential.
+ 
+[*source*](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
 ---
 
 ### Things I want to know more about
 
-* I would like to know more about the LEGB rule and how to implement it correctly in Python.
+* I would like to know more about Big O Notation and how to use the Random Module in Python
 
 ---
 
