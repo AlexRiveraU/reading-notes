@@ -17,6 +17,7 @@
 6. [Ten Thousand Game 1](https://alexriverau.github.io/reading-notes/read-06)
 7. [Ten Thousand 2](https://alexriverau.github.io/reading-notes/read-07)
 8. [Ten Thousand 3](https://alexriverau.github.io/reading-notes/read-08)
+9. [Ten Thousand 4](https://alexriverau.github.io/reading-notes/read-09)
 
 ---
 
