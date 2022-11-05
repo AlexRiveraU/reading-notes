@@ -19,6 +19,7 @@
 8. [Ten Thousand 3](https://alexriverau.github.io/reading-notes/read-08)
 9. [Ten Thousand 4](https://alexriverau.github.io/reading-notes/read-09)
 10. [Stacks and Queues](https://alexriverau.github.io/reading-notes/read-10)
+11. [Data Analysis](https://alexriverau.github.io/reading-notes/read-11)
 
 ---
 
