@@ -32,7 +32,7 @@ A `DataFrame` is a 2-dimensional data structure that can store data of different
 
 The `read_csv()` function allows us to read data stored as a csv file into a pandas DataFrame. Pandas support many different file formats or data sources out of the box (csv, excel, sql, json, parquet, etc.), each of them with the prefix `read_*`. To export data out of pandas we use the different `to_*` methods.
 
-There are other methods liek `head`, `tail`, `info` and `dtypes` attribute, that are very convenient for a first check.
+There are other methods like `head`, `tail`, `info` and `dtypes` attribute, that are very convenient for a first check.
 
 ### Selecting from a Data Frame
 
