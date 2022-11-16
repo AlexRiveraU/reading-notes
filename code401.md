@@ -22,6 +22,7 @@
 11. [Data Analysis](https://alexriverau.github.io/reading-notes/read-11)
 12. [Pandas](https://alexriverau.github.io/reading-notes/read-12)
 13. [Linear Regressions](https://alexriverau.github.io/reading-notes/read-13)
+14. [Data Visualization](https://alexriverau.github.io/reading-notes/read-14)
 
 ---
 
