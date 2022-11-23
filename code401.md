@@ -24,6 +24,7 @@
 13. [Linear Regressions](https://alexriverau.github.io/reading-notes/read-13)
 14. [Data Visualization](https://alexriverau.github.io/reading-notes/read-14)
 15. [Trees](https://alexriverau.github.io/reading-notes/read-15)
+16. [Serverless Functions](https://alexriverau.github.io/reading-notes/read-16)
 
 ---
 
