@@ -57,7 +57,7 @@ The padlock in our browser next to the url, means that the website has used publ
 
 ### Things I want to know more about
 
-* I would like to know more about how to implement symmetric and asymmetric encryption and when it is recommended to use each one of them. 
+* I would like to know more about how to implement symmetric and asymmetric encryption, and when is recommended to use each one of them. 
 
 ---
 
