@@ -27,6 +27,7 @@
 16. [Serverless Functions](https://alexriverau.github.io/reading-notes/read-16)
 17. [Web Scraping](https://alexriverau.github.io/reading-notes/read-17)
 18. [Cryptography](https://alexriverau.github.io/reading-notes/read-18)
+19. [Automation](https://alexriverau.github.io/reading-notes/read-19)
 
 ---
 
