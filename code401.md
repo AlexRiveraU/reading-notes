@@ -28,14 +28,7 @@
 17. [Web Scraping](https://alexriverau.github.io/reading-notes/read-17)
 18. [Cryptography](https://alexriverau.github.io/reading-notes/read-18)
 19. [Automation](https://alexriverau.github.io/reading-notes/read-19)
-
-[//]: # (20. 20)
-[//]: # (21. 21)
-[//]: # (22. 22)
-[//]: # (23. 23)
-[//]: # (24. 24)
-[//]: # (25. 25)
-26. [Intro to Django](https://alexriverau.github.io/reading-notes/read-26)
+20. [Intro to Django](https://alexriverau.github.io/reading-notes/read-26)
 
 
 
