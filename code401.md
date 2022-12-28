@@ -29,9 +29,14 @@
 18. [Cryptography](https://alexriverau.github.io/reading-notes/read-18)
 19. [Automation](https://alexriverau.github.io/reading-notes/read-19)
 
-#### Midterm
-
+[//]: # (20. 20)
+[//]: # (21. 21)
+[//]: # (22. 22)
+[//]: # (23. 23)
+[//]: # (24. 24)
+[//]: # (25. 25)
 26. [Intro to Django](https://alexriverau.github.io/reading-notes/read-26)
+
 
 
 ---
