@@ -30,8 +30,6 @@
 19. [Automation](https://alexriverau.github.io/reading-notes/read-19)
 20. [Intro to Django](https://alexriverau.github.io/reading-notes/read-26)
 
-
-
 ---
 
 [-back](https://alexriverau.github.io/reading-notes/)
