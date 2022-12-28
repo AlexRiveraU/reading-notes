@@ -28,6 +28,8 @@
 17. [Web Scraping](https://alexriverau.github.io/reading-notes/read-17)
 18. [Cryptography](https://alexriverau.github.io/reading-notes/read-18)
 19. [Automation](https://alexriverau.github.io/reading-notes/read-19)
+#### Midterm
+26. [Intro to Django](https://alexriverau.github.io/reading-notes/read-26)
 
 ---
 
