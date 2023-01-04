@@ -29,6 +29,7 @@
 18. [Cryptography](https://alexriverau.github.io/reading-notes/read-18)
 19. [Automation](https://alexriverau.github.io/reading-notes/read-19)
 20. [Intro to Django](https://alexriverau.github.io/reading-notes/read-26)
+21. [Django Models](https://alexriverau.github.io/reading-notes/read-27)
 
 ---
 
