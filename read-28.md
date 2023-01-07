@@ -106,9 +106,9 @@ def renew_book_librarian(request, pk):
 
 #### The template
 
-* `{{ form.as_table }}` to render each field as a table row.
-* `{{ form.as_ul }}` to render each field as a list item.
-* `{{ form.as_p }}` to render each field as a paragraph.
+* {{ form.as_table }} to render each field as a table row.
+* {{ form.as_ul }} to render each field as a list item.
+* {{ form.as_p }} to render each field as a paragraph.
 
 We can also render each part of the form using dot notation.
 
