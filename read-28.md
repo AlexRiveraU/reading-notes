@@ -106,18 +106,10 @@ def renew_book_librarian(request, pk):
 
 #### The template
 
-* Renders each field as a table row.
-```djangourlpath
-{{ form.as_table }}
-```
-* Renders each field as a list item.
-```djangourlpath
-{{ form.as_ul }}
-```
-* Renders each field as a paragraph.
-```djangourlpath
-{{ form.as_p }}
-```
+* `{{` `form.as_table` `}}` renders each field as a table row.
+* `{{` `form.as_ul` `}}` renders each field as a list item. 
+* `{{` `form.as_p` `}}` renders each field as a paragraph.
+
 
 We can also render each part of the form using dot notation.
 
