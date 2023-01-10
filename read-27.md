@@ -21,7 +21,7 @@ from django.db import models
 from django.urls import reverse
 
 class MyModelName(models.Model):
-    my_field_name = models.CharField(max_length=20, help_text='Enter field documentation')
+    my_field_name = models.CharField(max_length=20, help_text='text')
     
     class Meta:
         ordering = ['-my_field_name']
@@ -38,7 +38,7 @@ class MyModelName(models.Model):
 Models can have an arbitrary number of fields, of any type. Each one represents a column of data that we want to store in one of our database tables. Each database record (row) will consist of one of each field value. (e.g.)
 
 ```python
-my_field_name = models.CharField(max_length=20, help_text='Enter field documentation')
+my_field_name = models.CharField(max_length=20, help_text='text')
 ```
 
 ### Metadata

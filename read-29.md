@@ -38,7 +38,6 @@ We need to create a `forms.py` file in the app, and write the code to subclass t
 ```python
 from django import forms
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-
 from .models import CustomUser
 
 class CustomUserCreationForm(UserCreationForm):
