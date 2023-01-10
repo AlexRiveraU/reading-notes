@@ -31,8 +31,7 @@ from . import views
 urlpatterns = [
     path('articles/2003/', views.special_case_2003),
     path('articles/<int:year>/', views.year_archive),
-    path('articles/<int:year>/<int:month>/', views.month_archive),
-    path('articles/<int:year>/<int:month>/<slug:slug>/', views.article_detail)
+    path('articles/<int:year>/<int:month>/', views.month_archive)
 ]
 ```
 
@@ -64,7 +63,7 @@ from django.shortcuts import render
 
 @login_required
 def my_protected_view(request):
-    return render(request, 'protected.html', {'current_user': request.user})
+    return render(request, 'protected.html', {'user': request.user})
 ```
 
 **Admin**
