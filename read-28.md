@@ -36,7 +36,7 @@ Form data is stored in the application's `forms.py` file. We have import the `fo
 from django import forms
 
 class RenewBookForm(forms.Form):
-  renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+  renewal_date = forms.DateField(help_text="Enter a date")
   ```
 
 * There are many types of form fields, very similar to the model field classes.
@@ -47,16 +47,16 @@ The easiest way to validate a single field is to override the method `clean_<fie
 
 ```python
 class RenewBookForm(forms.Form):
-  renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+  renewal_date = forms.DateField(help_text="Enter a date")
   
   def clean_renewal_date(self):
     data = self.cleaned_data['renewal_date']
     
     if data < datetime.date.today():
-      raise ValidationError(_('Invalid date - renewal in past'))
+      raise ValidationError(_('Invalid date'))
     
     if data > datetime.date.today() + datetime.timedelta(weeks=4):
-      raise ValidationError(_('Invalid date - renewal more than 4 weeks ahead'))
+      raise ValidationError(_('Invalid date'))
       
     return data
 ```
@@ -65,7 +65,7 @@ class RenewBookForm(forms.Form):
 
 ```python
 urlpatterns += [
-  path('book/<uuid:pk>/renew/', views.renew_book_librarian, name='renew-book-librarian')
+  path('book/<uuid:pk>/renew/', views.renew_book_librarian, name='renew-book')
 ]
 ```
 
@@ -90,8 +90,8 @@ def renew_book_librarian(request, pk):
       return HttpResponseRedirect(reverse('all-borrowed'))
       
     else:
-      proposed_renewal_date = datetime.date.today() + datetime.timedelta(weeks=3)
-      form = RenewBookForm(initial={'renewal_date': proposed_renewal_date})
+      prop_renewal = datetime.date.today() + datetime.timedelta(weeks=3)
+      form = RenewBookForm(initial={'renewal_date': prop_renewal})
       
     context = {
       'form': form,
