@@ -65,7 +65,7 @@ class RenewBookForm(forms.Form):
 
 ```python
 urlpatterns += [
-  path('book/<uuid:pk>/renew/', views.renew_book_librarian, name='renew-book')
+  path('book/<uuid:pk>/renew/', views.renew_book, name='renew-book')
 ]
 ```
 
@@ -90,8 +90,8 @@ def renew_book_librarian(request, pk):
       return HttpResponseRedirect(reverse('all-borrowed'))
       
     else:
-      prop_renewal = datetime.date.today() + datetime.timedelta(weeks=3)
-      form = RenewBookForm(initial={'renewal_date': prop_renewal})
+      renewal = datetime.date.today() + datetime.timedelta(weeks=3)
+      form = RenewBookForm(initial={'renewal_date': renewal})
       
     context = {
       'form': form,
