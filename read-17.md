@@ -33,7 +33,7 @@ from bs4 import BeautifulSoup
 #### Set the url to the website and access the site with our requests library:
 
 ```python
-url = 'http://web.mta.info/developers/turnstile.html'
+url = 'https://web.mta.info/developers/turnstile.html'
 response = requests.get(url)
 ```
 
