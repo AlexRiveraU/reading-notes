@@ -36,10 +36,6 @@ There are two modern ways to create a custom user model:
 We need to create a `forms.py` file in the app, and write the code to subclass the existing forms.
 
 ```python
-from django import forms
-from django.contrib.auth.forms import UserCreationForm, UserChangeForm
-from .models import CustomUser
-
 class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = CustomUser
