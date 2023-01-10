@@ -36,7 +36,7 @@ Form data is stored in the application's `forms.py` file. We have import the `fo
 from django import forms
 
 class RenewBookForm(forms.Form):
-    renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+  renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
 ```
 
 * There are many types of form fields, very similar to the model field classes.
@@ -47,28 +47,28 @@ The easiest way to validate a single field is to override the method `clean_<fie
 
 ```python
 class RenewBookForm(forms.Form):
-    renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
-
-    def clean_renewal_date(self):
-        data = self.cleaned_data['renewal_date']
-
-        # Check if a date is not in the past.
-        if data < datetime.date.today():
-            raise ValidationError(_('Invalid date - renewal in past'))
-
-        # Check if a date is in the allowed range (+4 weeks from today).
-        if data > datetime.date.today() + datetime.timedelta(weeks=4):
-            raise ValidationError(_('Invalid date - renewal more than 4 weeks ahead'))
-
-        # Remember to always return the cleaned data.
-        return data
+  renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+  
+  def clean_renewal_date(self):
+    data = self.cleaned_data['renewal_date']
+    
+    # Check if a date is not in the past.
+    if data < datetime.date.today():
+      raise ValidationError(_('Invalid date - renewal in past'))
+      
+    # Check if a date is in the allowed range (+4 weeks from today).
+    if data > datetime.date.today() + datetime.timedelta(weeks=4):
+      raise ValidationError(_('Invalid date - renewal more than 4 weeks ahead'))
+      
+    # Remember to always return the cleaned data.
+    return data
 ```
 
 #### URL configuration
 
 ```python
 urlpatterns += [
-    path('book/<uuid:pk>/renew/', views.renew_book_librarian, name='renew-book-librarian'),
+  path('book/<uuid:pk>/renew/', views.renew_book_librarian, name='renew-book-librarian')
 ]
 ```
 
@@ -81,26 +81,26 @@ urlpatterns += [
 
 ```python
 def renew_book_librarian(request, pk):
-    book_instance = get_object_or_404(BookInstance, pk=pk)
-
-    if request.method == 'POST':
-        form = RenewBookForm(request.POST)
-
-        if form.is_valid():
-            book_instance.due_back = form.cleaned_data['renewal_date']
-            book_instance.save()
-
-            return HttpResponseRedirect(reverse('all-borrowed'))
-
+  book_instance = get_object_or_404(BookInstance, pk=pk)
+  
+  if request.method == 'POST':
+    form = RenewBookForm(request.POST)
+    
+    if form.is_valid():
+      book_instance.due_back = form.cleaned_data['renewal_date']
+      book_instance.save()
+      
+      return HttpResponseRedirect(reverse('all-borrowed'))
+      
     else:
-        proposed_renewal_date = datetime.date.today() + datetime.timedelta(weeks=3)
-        form = RenewBookForm(initial={'renewal_date': proposed_renewal_date})
-
+      proposed_renewal_date = datetime.date.today() + datetime.timedelta(weeks=3)
+      form = RenewBookForm(initial={'renewal_date': proposed_renewal_date})
+      
     context = {
-        'form': form,
-        'book_instance': book_instance,
+      'form': form,
+      'book_instance': book_instance,
     }
-
+    
     return render(request, 'catalog/book_renew_librarian.html', context)
 ```
 
@@ -122,9 +122,10 @@ from django.forms import ModelForm
 from catalog.models import BookInstance
 
 class RenewBookModelForm(ModelForm):
-    class Meta:
-        model = BookInstance
-        fields = ['due_back']
+  
+  class Meta:
+    model = BookInstance
+    fields = ['due_back']
 ```
 
 [*source*](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms)

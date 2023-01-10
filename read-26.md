@@ -26,14 +26,13 @@ Django encourages beautiful URL design and does not put any cruft in URLs, like 
 
 ```python
 from django.urls import path
-
 from . import views
 
 urlpatterns = [
     path('articles/2003/', views.special_case_2003),
     path('articles/<int:year>/', views.year_archive),
     path('articles/<int:year>/<int:month>/', views.month_archive),
-    path('articles/<int:year>/<int:month>/<slug:slug>/', views.article_detail),
+    path('articles/<int:year>/<int:month>/<slug:slug>/', views.article_detail)
 ]
 ```
 
@@ -65,7 +64,6 @@ from django.shortcuts import render
 
 @login_required
 def my_protected_view(request):
-    """A view that can only be accessed by logged-in users"""
     return render(request, 'protected.html', {'current_user': request.user})
       
 ```
@@ -79,12 +77,10 @@ from django.contrib import admin
 from bands.models import Band, Member
 
 class MemberAdmin(admin.ModelAdmin):
-    """Customize the look of the auto-generated admin for the Member model"""
     list_display = ('name', 'instrument')
     list_filter = ('band',)
-
-admin.site.register(Band)  # Use the default options
-admin.site.register(Member, MemberAdmin)  # Use the customized options
+admin.site.register(Band)
+admin.site.register(Member, MemberAdmin)
 ```
 
 **Internationalization**
