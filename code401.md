@@ -32,6 +32,7 @@
 21. [Django Models](https://alexriverau.github.io/reading-notes/read-27)
 22. [Django CRUD and Forms](https://alexriverau.github.io/reading-notes/read-28)
 23. [Django Custom User](https://alexriverau.github.io/reading-notes/read-29)
+24. [Hashtables](https://alexriverau.github.io/reading-notes/read-30)
 
 ---
 
