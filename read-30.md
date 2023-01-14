@@ -30,13 +30,13 @@
 
 * **set() -** Method used when adding a new key/value pair to a hashtable. It sends the key to the hash() method to determine the index where the new key/value pair should be placed, and adds it to that index location if nothing exists there already, otherwise it adds the new key/value pair to the data structure within that bucket.
 
-* **get() -** Method that takes in a key, gets the Hash, and goes to the index location specified. Once at the index location is found in the list (array), it is then the responsibility of the algorithm to iterate through the bucket and see if the key exists and return the value.
+* **get() -** Method that takes in a key, gets the Hash, and goes to the index location specified. Once the index location is found in the list (array), it is then the responsibility of the algorithm to iterate through the bucket and see if the key exists and return the value.
 
-* **has() -** Method that takes in a key, and returns a boolean if that key exists inside the hashtable. The best way to do this is to have the contains call the hash() method and check the hashtable if the key exists in the table given the index returned.
+* **has() -** Method that takes in a key, and returns a boolean if that key exists inside the hashtable. The best way to do this is to invoke the hash() method and check the hashtable to see if the key exists in the table given the index returned.
 
 * **keys() -** Method that returns a collection (list / array) of unique hash keys.
 
-* **hash() -** Method that takes in a key as a string, conducts the hash, and then return the index of the array where the key/value should be placed.
+* **hash() -** Method that takes in a key as a string, conducts the hash, and then returns the index of the array where the key/value should be placed.
 
 ---
 
