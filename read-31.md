@@ -24,7 +24,7 @@ To better explain this, an analogy we can use here is that of homes and apartmen
 ### Install Docker
 
 * We need to download the desktop app on our computer and create a free account.
-* We use the command below to confirm we have a working version:
+* We use the command below to confirm we have the correct version:
 
 ```commandline
 $ docker --version
@@ -104,14 +104,17 @@ There are static files included in the Django admin and Django REST Framework br
 * Create a `static` directory.
 * Add a `.keep` file so the static directory in included in source control.
 * Install the `WhiteNoise` package.
+
 ```commandline
 python -m pip install whitenoise==6.0.0
 ```
+
 * Add `WhiteNoise` to the project via `settings.py`. 
   * `whitenoise` above `django.contrib.staticfiles` in `INSTALLED_APPS`. 
   * `WhiteNoiseMiddleware` above `CommonMiddleware`. 
   * `STATICFILES_STORAGE` configuration pointing to WhiteNoise
 * Run the `collectstatic` command for the first time to compile all the static file directories and files into one self-contained unit suitable for deployment.
+
 ```commandline
 python manage.py collectstatic
 ```
