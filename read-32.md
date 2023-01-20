@@ -20,7 +20,7 @@ This topic matters as it relates to learning about permissions and postgresql.
 
 ### Object level permissions
 
-Object level permissions are used to determine if a user should be allowed to act on a particular object, typically a model instance. They're run in generic views by calling `.get_object()`. Raises`exceptions.PermissionDenied` if the user is not allowed to act on the object.
+Object level permissions are used to determine if a user should be allowed to act on a particular object, typically a model instance. They're run in generic views by calling `.get_object()`. Raises `exceptions.PermissionDenied` if the user is not allowed to act on the object.
 
 ### Setting the permission policy
 
@@ -57,7 +57,7 @@ from rest_framework.permissions import IsAuthenticated
 * `AllowAny` - Permission class that allows unrestricted access, regardless of whether the request was authenticated or unauthenticated.
 * `IsAuthenticated` - Permission class that denies permission to any unauthenticated user, and allows permission otherwise.
 * `IsAdminUser` - Permission class that denies permission to any user, unless `user.is_staff` is True in which case permission will be allowed.
-* `IsAuthenticatedOrReadOnly` - Permission class that allows authenticated users to perform any request. Requests for unauthorised users will only be permitted if the request method is either `GET`, `HEAD` or `OPTIONS`.
+* `IsAuthenticatedOrReadOnly` - Permission class that allows authenticated users to perform any request. Requests for unauthorized users will only be permitted if the request method is either `GET`, `HEAD` or `OPTIONS`.
 * `DjangoModelPermissions` - Permission class that must only be applied to views that have a `.queryset` property or `get_queryset()` method. Authorization is granted if the user is authenticated and has the relevant model permissions assigned.
 * `DjangoModelPermissionsOrAnonReadOnly` - Similar to `DjangoModelPermissions`, but also allows unauthenticated users to have read-only access to the API.
 * `DjangoObjectPermissions` - Permission class that allows per-object permissions on models. We need to add a permission backend that supports object-level permissions, like django-guardian. It must only be applied to views that have a `.queryset` property or `get_queryset()` method. Authorization is granted if the user is authenticated and has the relevant per-object permissions and relevant model permissions assigned.
