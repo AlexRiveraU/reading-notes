@@ -29,7 +29,7 @@ The JWT is just an authorization token that should be included in all requests. 
 * **access token -** Short-lived, expires in about 5 min. Can be customized.
 * **refresh token -** Lives a little longer, expires in 24 hours. Can be customized.
 
-In order to use JWT in the DRF, we need to install its library, and update `settings.py` abd `urls.py`:
+In order to use JWT in the DRF, we need to install its library, and update `settings.py` and `urls.py`:
 
 ```commandline
 pip install djangorestframework_simplejwt
@@ -48,8 +48,12 @@ from django.urls import path
 from rest_framework_simplejwt import views as jwt_views
 
 urlpatterns = [
-    path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/token/', 
+         jwt_views.TokenObtainPairView.as_view(), 
+         name='token_obtain_pair'),
+    path('api/token/refresh/', 
+         jwt_views.TokenRefreshView.as_view(), 
+         name='token_refresh'),
 ]
 ```
 
