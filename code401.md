@@ -35,6 +35,7 @@
 24. [Hashtables](https://alexriverau.github.io/reading-notes/read-30)
 25. [Django REST Framework & Docker](https://alexriverau.github.io/reading-notes/read-31)
 26. [Permissions & Postgresql](https://alexriverau.github.io/reading-notes/read-32)
+27. [Authentication & Production Server](https://alexriverau.github.io/reading-notes/read-33)
 
 ---
 
