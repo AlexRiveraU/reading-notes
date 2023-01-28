@@ -47,6 +47,21 @@ Using the environment variables approach, we can easily switch from a monolith t
 * Cons:
   * Need to handle sharing default config between developers.
 
+#### 12 Factors
+
+* Codebase
+* Dependencies
+* Config
+* Backing services
+* Build, release, run
+* Processes
+* Port binding
+* Concurrency
+* Disposability
+* Dev/prod parity
+* Logs
+* Admin processes
+
 #### Best practices
 
 * Keep settings in environment variables.
@@ -57,19 +72,29 @@ Using the environment variables approach, we can easily switch from a monolith t
 
 [*source*](https://djangostars.com/blog/configuring-django-settings-best-practices/)
 
-
 ---
 
 ### SSH Tutorial
 
 #### What Is SSH?
 
-SSH (Secure Shell Protocol) is a remote administration protocol that allows users to access, control, and modify their remote servers over the internet.
+SSH (Secure Shell Protocol) is a remote administration protocol that allows users to access, control, and modify their remote servers over the internet. Gaining an in-depth understanding of the underlying how SSH works can help users understand the security aspects of this technology.
 
-Gaining an in-depth understanding of the underlying how SSH works can help users understand the security aspects of this technology.
+#### Symmetric Encryption
 
-If you’re wondering how long it takes for a computer to calculate a hash and authenticate a user, well, it happens in less than a second. In fact, the maximum amount of time is spent in transferring data across the Internet.
+Symmetric encryption is a form of encryption where a secret key is used for both encryption and decryption of a message by both the client and the host. Anyone with the key can decrypt the message being transferred.
 
+#### Asymmetric Encryption
+
+Asymmetrical encryption uses two separate keys for encryption and decryption. These two keys are known as the public key and the private key. Both these keys form a public-private key pair.
+
+#### Hashing
+
+One-way hashing is another form of cryptography used in Secure Shell Connections. One-way-hash functions differ from the above two forms of encryption in the sense that they are never meant to be decrypted. They generate a unique value of a fixed length for each input that shows no clear trend which can be exploited. This makes them practically impossible to reverse.
+
+#### Authenticating the User
+
+For authenticating user credentials, we use a password. The user is asked to enter the username, followed by the password. These credentials securely pass through the symmetrically encrypted tunnel, so there is no chance of them being captured by a third party. It is still not recommended to use passwords for secure connections. This is because many bots can simply brute force easy or default passwords and gain access to your account. Instead, the recommended alternative is SSH Key Pairs.
 
 [*source*](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work)
 
