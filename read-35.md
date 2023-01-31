@@ -23,12 +23,12 @@
 * **Connected Graph -** A graph where each node is connected to at least one other node or vertex. A `Tree` is a form of a connected graph.
 
 * **Disconnected Graph -** A graph where some vertices may not have edges.
-
+ 
 * **Acyclic Graph -** A directed graph without cycles. A directed acyclic graph is also called a `DAG`. This can also be represented as what we know as a tree.
-  * **Cycle -** When a node can be traversed through and potentially end up back at itself.
 
 * **Cyclic Graph -** A graph that has cycles.
-  * **Cycle -** A path of a positive length that starts and ends at the same vertex.
+ 
+* **Cycle -** When a node can be traversed through and potentially end up back at itself. A path of a positive length that starts and ends at the same vertex.
 
 * **Adjacency Matrix -** Represented through a 2-dimensional array. If there are `n` vertices, then we are looking at an `n x n` Boolean matrix.
 
