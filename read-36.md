@@ -32,13 +32,13 @@ At the end of the day we're all human, so openly discussing the problem in a con
 
 ### 7 Tips
 
-1) Take a few minutes to think in silence.
-2) Write down the steps of the solution.
-3) Write pseudocode first.
-4) Don’t sweat the small stuff. We all use Google.
-5) Sit down. Be humble.
-6) Come prepared.
-7) Review your work.
+1. Take a few minutes to think in silence. 
+2. Write down the steps of the solution. 
+3. Write pseudocode first. 
+4. Don’t sweat the small stuff. We all use Google. 
+5. Sit down. Be humble. 
+6. Come prepared. 
+7. Review your work.
 
 [*source*](https://medium.com/@steve_45636/6-tips-to-ace-a-whiteboard-programming-interview-f06c1b378bc6)
 
