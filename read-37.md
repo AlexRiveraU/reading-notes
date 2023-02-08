@@ -1,6 +1,6 @@
 # React 1
 
-This topic matters as it relates to learning about ES6, React, Tailwind CSS, and Next.js in python.
+This topic matters as it relates to learning about ES6, React, Tailwind CSS, and Next.js.
 
 ---
 
@@ -75,7 +75,7 @@ React elements are immutable. Once we create an element, we can’t change its c
 
 ##### Function and Class Components
 
-The simplest way to define a component is to write a function. It has to accept a single `props` (which stands for properties and are `Read-Only`) object argument with data and return a React element, in order to be a valid React component.
+The simplest way to define a component is to write a JavaScript function. It has to accept a single `props` (which stands for properties and are `Read-Only`) object argument with data and return a React element, in order to be a valid React component.
 
 We can also use ES6 class to define a component:
 
@@ -200,7 +200,7 @@ Next.js has a **Fast Refresh** feature. When we make changes to files, it automa
 
 ### Things I want to know more about
 
-* I would like to know more about implementing React and Next.js in python.
+* I would like to know more about implementing React and Next.js.
 
 ---
 
