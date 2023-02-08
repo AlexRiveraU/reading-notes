@@ -26,6 +26,7 @@ let str = `Release Date: ${date}`
 * **Array iteration (looping) -** concise syntax for iteration through arrays and other iterable objects.
 * **Default parameters -** functions can be initialized with default parameters, which will be used only if an argument is not invoked through the function.
 * **Spread syntax -** can be used to expand an array.
+
 ```javascript
 let arr1 = [1, 2, 3]
 let arr2 = ['a', 'b', 'c']
@@ -33,6 +34,7 @@ let arr3 = [...arr1, ...arr2]
 
 console.log(arr3) // [1, 2, 3, "a", "b", "c"]
 ```
+
 * **Classes/constructor functions -** `class` syntax on top of the prototype-based constructor function.
 * **Inheritance -** `extends` keyword creates a subclass.
 * **Modules - export/import -** modules can be created to export and import code between files.
@@ -176,9 +178,11 @@ npx create-next-app nextjs-blog
 ```
 * `cd` into `nextjs-blog` directory
 * run:
+
 ```commandline
 npm run dev
 ```
+
 * Go to [http://localhost:3000](http://localhost:3000) Starter template should be displayed.
 
 ##### Editing the Page
