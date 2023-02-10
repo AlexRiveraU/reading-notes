@@ -23,7 +23,7 @@ function Greeting(props) {
 We can use variables to store elements to help us conditionally render a part of the component while the rest of the output doesn’t change. Declaring a variable and using an `if` statement is a fine way to conditionally render a component.
 
 ```JavaScript
-ender() {
+render() {
     const isLoggedIn = this.state.isLoggedIn;
     let button;
     if (isLoggedIn) {
