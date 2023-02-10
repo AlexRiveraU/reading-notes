@@ -40,6 +40,7 @@
 29. [Graphs](https://alexriverau.github.io/reading-notes/read-35)
 30. [DSA Review](https://alexriverau.github.io/reading-notes/read-36)
 31. [React 1](https://alexriverau.github.io/reading-notes/read-37)
+32. [React 2](https://alexriverau.github.io/reading-notes/read-38)
 
 ---
 
