@@ -54,6 +54,7 @@ import html from 'remark-html';
 * We use `getAllPostIds` to fetch data from an external API endpoint.
 
 #### Development vs. Production
+
 * In development, `getStaticPaths` runs on every request
 * In production, `getStaticPaths` runs at build time
 
