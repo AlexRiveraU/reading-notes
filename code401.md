@@ -43,6 +43,7 @@
 32. [React 2](https://alexriverau.github.io/reading-notes/read-38)
 33. [React 3](https://alexriverau.github.io/reading-notes/read-39)
 34. [React 4](https://alexriverau.github.io/reading-notes/read-41)
+35. [Pythonisms](https://alexriverau.github.io/reading-notes/read-42)
 
 ---
 
