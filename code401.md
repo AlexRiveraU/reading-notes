@@ -44,6 +44,8 @@
 33. [React 3](https://alexriverau.github.io/reading-notes/read-39)
 34. [React 4](https://alexriverau.github.io/reading-notes/read-41)
 35. [Pythonisms](https://alexriverau.github.io/reading-notes/read-42)
+36. [Ethics in Tech](https://alexriverau.github.io/reading-notes/read-43)
+37. [OSS Contributions](https://alexriverau.github.io/reading-notes/read-44)
 
 ---
 
