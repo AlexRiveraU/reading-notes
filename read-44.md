@@ -10,7 +10,6 @@
 
 [source](https://clearcode.cc/blog/why-developers-contribute-open-source-software/)
 
-
 * **First Timers Only**
 
 First Timers Only is a site that provides a list of resources for developers that have never contributed to an open source project before.
