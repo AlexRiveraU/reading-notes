@@ -19,6 +19,6 @@ First Timers Only is a site that provides a list of resources for developers tha
 
 * **GitHub’s Guide to Open Source**
 
-GitHub also has options pretty good to learn how to contribute to open source and launch a new project.
+GitHub also has pretty good options to learn how to contribute to open source and launch a new project.
 
 [github.com/open-source](https://github.com/open-source)
