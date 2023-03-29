@@ -1,6 +1,6 @@
 # READING NOTES
 
-My name is Alejandro Rivera. I'm a Software Development student at [Code Fellows](https://www.codefellows.org/). This is part of my learning journey.
+My name is Alex Rivera. I'm a Software Developer with over 10 years of experience in medical interpreting. In March of 2023 I graduated from [Code Fellows](https://www.codefellows.org/) in Advanced Software Development in Python. This is part of my learning journey.
 
 ---
 
