@@ -1,6 +1,6 @@
 # READING NOTES
 
-My name is Alex Rivera. I'm a Software Developer with over 10 years of experience in medical interpreting. In March of 2023 I graduated from [Code Fellows](https://www.codefellows.org/), I completed the Advanced Software Development program in Python. This was part of my learning journey.
+My name is Alex Rivera. I'm a Software Developer with over 10 years of experience in medical interpreting. In March 2023, I graduated from [Code Fellows](https://www.codefellows.org/) and completed their Advanced Software Development program in Python. The following notes were part of my learning journey.
 
 ---
 
@@ -16,4 +16,4 @@ My name is Alex Rivera. I'm a Software Developer with over 10 years of experienc
 
 ### Contact
 
-[Email](mailto:alexrivera78@gmail.com)
+[Email](mailto:alexriveradev@gmail.com)
